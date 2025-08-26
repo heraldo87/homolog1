@@ -1,0 +1,33 @@
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+*.sql
+*.sqlite
+
+# Pastas comuns em PHP
+/vendor/
+/node_modules/
+/storage/
+/cache/
+/uploads/
+/sessions/
+/tmp/
+/backup/
+
+# Arquivos sensíveis
+.env
+.env.local
+.env.*.local
+.DS_Store
+.idea/
+.vscode/
+*.sublime-*
+
+# aaPanel / nginx cache
+/www/server/panel/
+/www/server/nginx/logs/
+
+# Arquivos de sistema
+Thumbs.db
